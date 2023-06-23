@@ -1,0 +1,104 @@
+.top {
+  margin-top: 20px;
+}
+
+.top input,
+.top button,
+.top form {
+    margin-bottom: 70px; /* Add spacing between elements */
+    margin-left: 10px;
+}
+
+.top form:last-child {
+    margin-bottom: 0; /* Remove margin-bottom for the last form element */
+}
+
+.navigation {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #888;
+  font-weight: 600;
+
+}
+
+.navigation .a{
+  text-decoration: underline;
+  color: blue;
+}
+
+/* .food-table {
+  display: flex;
+  margin-bottom: 20px;
+} */
+
+input[type="text"],
+input[type="date"]
+{
+  padding: 8px;
+  font-size: 24px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+ 
+button[type="submit"],
+.load, .add, .delete, .favourite,
+.cancel-button
+{
+  padding: 12px 24px;
+  font-size: 24px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.delete{
+background-color: rgba(255, 0, 0, 0.821);
+}
+
+.cancel-button{
+  background-color: rgba(255, 0, 0, 0.821);
+} 
+
+.favourite{
+  background-color:  #ffbd03;
+}
+
+p.search-results {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.table-container {
+  overflow-x: auto;
+  font-size: 24px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th{
+  font-weight: 600;
+}
+
+td{
+  font-weight: 500;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th.middle-column {
+  width: 50%;
+}

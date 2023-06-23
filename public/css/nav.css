@@ -1,0 +1,42 @@
+
+/* This css is for navigation bar */
+
+nav {
+	background-color: red;
+	height: 65px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 20px;
+}A
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+nav ul li a:hover {
+	background-color:darkred;
+}
+
+
